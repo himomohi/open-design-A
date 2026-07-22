@@ -21,8 +21,6 @@ on:
     paths:
       - 'plugins/_official/**'
       - 'scripts/bake-plugin-previews.mjs'
-  schedule:
-    - cron: '0 18 * * *' # nightly self-healing full sweep
   workflow_dispatch: {}
 
 permissions:
